@@ -1,5 +1,13 @@
 // In-memory users instead of a DB:
-const mockUserDB = [];
+const mockUserDB = [
+    {
+        name: 'Test user',
+        uuid: '110b0040-4bb9-11ed-83e8-23176c9bebaa',
+        trayId: '7e75fbe8-f268-4fdd-96ed-bbe15bc6cda0',
+        username: 'test.user',
+        password: '1234qwer@Q'
+    }
+];
 
 /**
  * Retreive user from the Mock DB:

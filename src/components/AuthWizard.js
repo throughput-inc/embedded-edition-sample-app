@@ -49,7 +49,7 @@ export class AuthWizard extends React.PureComponent {
 
     return (
       <div style={styles.container}>
-        <iframe ref={this.iframe} style={styles.iframe} src={this.props.src} />
+        <iframe title={"trayFrame"} ref={this.iframe} style={styles.iframe} src={this.props.src} />
       </div>
     );
   }
